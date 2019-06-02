@@ -17,7 +17,6 @@ class user
         $cnn=user::connect();
         $vari=0;      
         $q="insert into user_tbl values ('".null."','".$uemail."','". $uname ."','". $ucname ."','". $ucontact ."','". $upass ."','". $uotp ."','". $utp."')";
-        
         $result=$cnn->query($q);
         return $result;
         user::disconnect();

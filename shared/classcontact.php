@@ -12,10 +12,7 @@ class contact
     {
         mysqli_close($conn);
         self::$conn=null;
-    }
-    
-    
-    
+    }  
     public function insert($wname,$wemail,$wsub,$wmsg)
     {
         $cnn=contact::connect();
