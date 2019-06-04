@@ -68,13 +68,13 @@ if(isset($_POST["loginbtn"])){
     {
         $row=$result->fetch_assoc();
         $_SESSION["id"]=$row["user_id"]; 
-        header('location:login.php');
+        header('location:index.php');
     }     
     else
     {
         echo $sql;
         echo " Not Successfully login";
-        header('location:index.php');
+        header('location:login.php');
     }
 
 }
@@ -95,8 +95,6 @@ if(isset($_POST["loginbtn"])){
                             <input type="email" name="txtid" placeholder="Email Address" title=" Ex. riya12@domain.com" required/>
                             <input type="password" name="txtpassword" pattern=".{6,12}" title="6 to 12 characters" placeholder="Password" data-toggle="password" required/>
                             <input type="text" pattern="{1,15}" name="txtcontact" placeholder="Contact Number"/>
-							<input type="text" name="txtotp" placeholder="OTP"/>
-							<input type="text" name="txttp" placeholder="Timestamp"/>
 							<button type="submit" name="btnsubmit" class="btn btn-default">Signup</button>
                         </form>
 <?php

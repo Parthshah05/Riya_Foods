@@ -55,7 +55,7 @@
                             <li><a href="index.php" class="active">Home</a></li>
                             <li><a href="cart.php">Cart</a></li> 
                             <li><a href="products.php">Our Products</a></li> 
-                            <li><a href="contact-us.php">Contact</a></li>
+                            <li><a href="contactus.php">Contact</a></li>
                         </ul>
                     </div>
                 </div>

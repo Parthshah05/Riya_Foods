@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php
+session_start();
+if (!isset($_SESSION["id"])) {
+    header("Location:login.php");
+}
+?>
 
 <head>
     <meta charset="utf-8">
@@ -34,8 +40,6 @@
                 if (this.readyState == 4 && this.status == 200) {
                     if (this.responseText) {
                         alert("Quantity increased to cart successfully.");
-                        // var row = document.getElementById(pid).parentNode.parentNode;
-                        // row.parentNode.removeChild(row);
                     }
                     else{
                         alert(this.responseText);
@@ -80,10 +84,6 @@
         }
     </script>
     <?php
-    session_start();
-    if (!isset($_SESSION["id"])) {
-        // header("Location:login.php");
-    }
     require './shared/individual_components/header_component.php';
     ?>
     <section id="cart_items">
@@ -109,7 +109,6 @@
                         <tbody>
                             <?php
                             require './shared/classcart.php';
-                            $_SESSION["id"] = 1;
                             $conn = new cart;
                             $result = $conn->selectCartByUid($_SESSION["id"]);
                             if ($result->num_rows > 0) {

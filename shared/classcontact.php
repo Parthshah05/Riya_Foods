@@ -16,9 +16,7 @@ class contact
     public function insert($wname,$wemail,$wsub,$wmsg)
     {
         $cnn=contact::connect();
-        
-        $q="insert into contact_us values ('". $wname."','". $wemail ."','". $wsub ."','". $wmsg ."')";
-        
+        $q="insert into contact_us values (null,'". $wname."','". $wemail ."','". $wsub ."','". $wmsg ."')";
         $result=$cnn->query($q);
         return $result;
         contact::disconnect();

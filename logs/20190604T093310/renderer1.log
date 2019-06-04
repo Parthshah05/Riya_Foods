@@ -1,0 +1,2 @@
+[2019-06-04 09:33:45.707] [renderer1] [warning] UNRESPONSIVE extension host, 'kisstkondoros.vscode-codemetrics' took 96% of 5729.438ms, saved PROFILE here: '/tmp/exthost-855077.cpuprofile' [{"id":"gc","total":440,"percentage":0},{"id":"kisstkondoros.vscode-codemetrics","total":5503557,"percentage":96},{"id":"self","total":222209,"percentage":4}]
+[2019-06-04 09:35:14.912] [renderer1] [error] Error: Error: ENOENT: no such file or directory, stat '/opt/lampp/htdocs/Riya_Foods/.vscode'

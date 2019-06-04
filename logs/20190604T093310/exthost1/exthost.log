@@ -1,0 +1,40 @@
+[2019-06-04 09:33:31.358] [exthost] [info] extension host started
+[2019-06-04 09:33:32.078] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-06-04 09:33:32.079] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-06-04 09:33:32.217] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-06-04 09:33:32.217] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-06-04 09:33:32.332] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-06-04 09:33:32.332] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-06-04 09:33:32.656] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-06-04 09:33:32.656] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-06-04 09:33:32.701] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":true,"activationEvent":"*"}
+[2019-06-04 09:33:32.702] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/christian-kohler.path-intellisense-1.4.2/out/src/extension
+[2019-06-04 09:33:32.795] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2019-06-04 09:33:32.795] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/dbaeumer.vscode-eslint-1.9.0/client/out/extension
+[2019-06-04 09:33:32.881] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens {"startup":true,"activationEvent":"*"}
+[2019-06-04 09:33:32.881] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/eamodio.gitlens-9.8.1/dist/extension
+[2019-06-04 09:33:33.213] [exthost] [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig {"startup":true,"activationEvent":"*"}
+[2019-06-04 09:33:33.213] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/editorconfig.editorconfig-0.13.0/out/src/editorConfigMain
+[2019-06-04 09:33:33.435] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"activationEvent":"*"}
+[2019-06-04 09:33:33.435] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/formulahendry.auto-close-tag-0.5.6/out/src/extension
+[2019-06-04 09:33:33.455] [exthost] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"activationEvent":"*"}
+[2019-06-04 09:33:33.455] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/hookyqr.beautify-1.5.0/extension
+[2019-06-04 09:33:34.307] [exthost] [info] ExtensionService#_doActivateExtension kisstkondoros.vscode-codemetrics {"startup":true,"activationEvent":"*"}
+[2019-06-04 09:33:34.307] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/kisstkondoros.vscode-codemetrics-1.18.1/out/src/extension
+[2019-06-04 09:33:44.427] [exthost] [info] ExtensionService#_doActivateExtension michelemelluso.gitignore {"startup":true,"activationEvent":"*"}
+[2019-06-04 09:33:44.427] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/michelemelluso.gitignore-1.0.1/out/src/extension
+[2019-06-04 09:33:44.787] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"activationEvent":"*"}
+[2019-06-04 09:33:44.787] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/pkief.material-icon-theme-3.8.0/dist/extension
+[2019-06-04 09:33:44.930] [exthost] [info] ExtensionService#_doActivateExtension shardulm94.trailing-spaces {"startup":true,"activationEvent":"*"}
+[2019-06-04 09:33:44.930] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/shardulm94.trailing-spaces-0.3.1/out/src/extension
+[2019-06-04 09:33:46.583] [exthost] [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker {"startup":true,"activationEvent":"*"}
+[2019-06-04 09:33:46.583] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/streetsidesoftware.code-spell-checker-1.7.16/dist/extension
+[2019-06-04 09:33:46.824] [exthost] [info] eager extensions activated
+[2019-06-04 09:33:49.794] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"activationEvent":"onLanguage:html"}
+[2019-06-04 09:33:49.794] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain
+[2019-06-04 09:35:10.222] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"activationEvent":"onLanguage:php"}
+[2019-06-04 09:35:10.222] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/php-language-features/dist/phpMain
+[2019-06-04 09:35:10.450] [exthost] [info] ExtensionService#_doActivateExtension chrmarti.regex {"startup":false,"activationEvent":"onLanguage:php"}
+[2019-06-04 09:35:10.450] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/chrmarti.regex-0.2.0/out/src/extension
+[2019-06-04 09:35:10.639] [exthost] [info] ExtensionService#_doActivateExtension henriiik.docker-linter {"startup":false,"activationEvent":"onLanguage:php"}
+[2019-06-04 09:35:10.643] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/henriiik.docker-linter-0.5.0/out/src/extension

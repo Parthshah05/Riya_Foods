@@ -29,7 +29,7 @@
 
 <body>
     <?php
-        require '/shared/individual_components/header_component.php';
+        require './shared/individual_components/header_component.php';
     ?>
 
     <script>
