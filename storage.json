@@ -2,7 +2,8 @@
     "telemetry.machineId": "4d369e8d3298d444adfbdfa23023f8b132d72859a82acf83e6b2c7bb688f84be",
     "openedPathsList": {
         "workspaces3": [
-            "file:///opt/lampp/htdocs/Riya_Foods"
+            "file:///opt/lampp/htdocs/Riya_Foods",
+            "file:///home/malav/Desktop/gateway/nest_project_final/final-project"
         ],
         "files2": []
     },
@@ -49,7 +50,18 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/opt/lampp/htdocs/Riya_Foods",
+                                        "fsPath": "/home/malav/Desktop/gateway/nest_project_final/final-project",
+                                        "external": "file:///home/malav/Desktop/gateway/nest_project_final/final-project",
+                                        "path": "/home/malav/Desktop/gateway/nest_project_final/final-project",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Desktop/gateway/nest_project_final/final-project"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///opt/lampp/htdocs/Riya_Foods",
                                         "path": "/opt/lampp/htdocs/Riya_Foods",
                                         "scheme": "file"
@@ -1373,5 +1385,6 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#1e1e1e"
+    "themeBackground": "#1e1e1e",
+    "pickerWorkingDir": "/opt/lampp/htdocs"
 }

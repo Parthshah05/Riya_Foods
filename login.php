@@ -1,5 +1,9 @@
 <?php 
 session_start();
+if(isset($_SESSION["id"]))
+{
+    header("Location:index.php");
+}
 ?>
 <html lang="en">
 <head>
@@ -37,27 +41,18 @@ session_start();
 					<div class="login-form"><!--login form-->
 						<h2>Login to your account</h2>
 						<form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-							
                             <input type="email" name="txtemail" placeholder="Email Address" title=" Ex. riya12@domain.com" required/>
                             <input type="password" name="txtpass" pattern=".{6,12}" title="6 to 12 characters" placeholder="Password" required/>
-							<span>
-								<input type="checkbox" class="checkbox"> 
-								Keep me signed in
-							</span>
 							<button type="submit"  name="loginbtn" class="btn btn-default">Login</button>
                         </form>
-						<!--/forget password-->
 						<form method="post" action="emaildemo.php">
-							
                             <input type="email" name="txtemail" placeholder="Email Address" title=" Ex. riya12@domain.com" required/>
-                            
 							<button type="submit"  name="log" class="btn btn-default">Get Password</button>
                         </form>
                         <?php
 
 $_email="";
 $_password="";
-
 if(isset($_POST["loginbtn"])){
     $_password=base64_encode($_POST["txtpass"]);
     $_email=$_POST["txtemail"];
@@ -72,7 +67,6 @@ if(isset($_POST["loginbtn"])){
     }     
     else
     {
-        echo $sql;
         echo " Not Successfully login";
         header('location:login.php');
     }
@@ -104,7 +98,6 @@ $_name="";
 $_contact="";
 $_cname="";
 $_pass="";
-$_otp="";
 $_tp="";
 
 
@@ -117,30 +110,48 @@ if(isset($_POST["btnsubmit"]))
     $_name=$_POST["txtname"];
     $_contact=$_POST["txtcontact"];
     $_cname=$_POST["txtcompany"];
-    
- //   $_pass= PASSWORD_HASH($_POST["txtpassword"], PASSWORD_DEFAULT);
-  $_pass=$_POST["txtpassword"];  
- $hash=base64_encode($_pass);
+    $_pass=$_POST["txtpassword"];  
+    $hash=base64_encode($_pass);
+    include_once './shared/classmail.php';
+    $mail=new Mail;
+    $token=md5(uniqid(rand(), true));
+    $token=substr($token,0,11);
+    $message='<h1>Verify Your Account</h1>
+    Hi '.$_name.',
+ <p>
+We have received your signup request.In order to signup please click on below link to verify your account.
+</p>
+ <p>
+ <a href="verifyaccount.php?token='.$token.'">Please click on this link to verify your account.</a>
+ </p>
+<p>
+This is confidential mail.Please do not share this mail with anyother. Do Not revert back to this mail id.
+</p>
+<p>If you have trouble to sign in:
+Please contact us on rkishor59@yahoo.co.uk
+ </p>
  
- 
-  $_otp=$_POST["txtotp"];
-    $_tp=$_POST["txttp"];
+<p>Thanks for helping us creating your account.
+Riya Foods Limited</p>';
+    if($mail->sendMail($_eid,$_name,"medskyy@gmail.com", "Riya Foods Limited", "Verify Your Account", $message)){
+        require './shared/classsignup.php';
+        $conn=new user;
+        $result=$conn->insert($_eid,$_name,$_cname,$_contact,$hash,$token,$_tp);
+        if($result===true)
+        {
+            $message="Please verify your account than log in.";
+        }     
+        else
+        {
+            $message="Please enter valid details.";
+        }
+        echo "<script type='text/javascript'>alert('$message');</script>";
 
-    require 'shared/classsignup.php';
-    $conn=new user;
-    $result=$conn->insert($_eid,$_name,$_cname,$_contact,$hash,$_otp,$_tp);
-
-    if($result===true)
-    {
-         header('location:login.php');
-    }     
-    else
-    {
-        echo $sql;
-        echo " Not Successfully Insert";
-        header('location:login.php');
     }
-
+    else{
+        $message="Please enter valid email id.";
+        echo "<script type='text/javascript'>alert('$message');</script>";
+    }
 }
 
 ?>

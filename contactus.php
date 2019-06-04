@@ -35,14 +35,12 @@
     $result=$conn->insert($_name,$_eid,$_sub,$_msg);
 	if($result){
         $message="We got your resonse.We will contact you very soon.Thank you!!!";
-		echo "<script type='text/javascript'>alert('$message');</script>";
 	}
     else
     {
         $message="Please contact us on phone or email.";
-        echo "<script type='text/javascript'>alert('$message');</script>";
-        // header('location:lndex.php');
     }
+    echo "<script type='text/javascript'>alert('$message');</script>";
 
 }
     ?>

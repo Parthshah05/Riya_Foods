@@ -1,0 +1,271 @@
+[2019-06-04 11:27:44.593] [exthost] [info] extension host started
+[2019-06-04 11:27:44.703] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-06-04 11:27:44.703] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-06-04 11:27:44.724] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-06-04 11:27:44.724] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-06-04 11:27:44.778] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-06-04 11:27:44.778] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-06-04 11:27:45.222] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-06-04 11:27:45.222] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-06-04 11:27:45.338] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":true,"activationEvent":"*"}
+[2019-06-04 11:27:45.338] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/christian-kohler.path-intellisense-1.4.2/out/src/extension
+[2019-06-04 11:27:45.392] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2019-06-04 11:27:45.392] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/dbaeumer.vscode-eslint-1.9.0/client/out/extension
+[2019-06-04 11:27:45.476] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens {"startup":true,"activationEvent":"*"}
+[2019-06-04 11:27:45.476] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/eamodio.gitlens-9.8.1/dist/extension
+[2019-06-04 11:27:45.693] [exthost] [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig {"startup":true,"activationEvent":"*"}
+[2019-06-04 11:27:45.693] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/editorconfig.editorconfig-0.13.0/out/src/editorConfigMain
+[2019-06-04 11:27:45.781] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"activationEvent":"*"}
+[2019-06-04 11:27:45.781] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/formulahendry.auto-close-tag-0.5.6/out/src/extension
+[2019-06-04 11:27:45.802] [exthost] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"activationEvent":"*"}
+[2019-06-04 11:27:45.802] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/hookyqr.beautify-1.5.0/extension
+[2019-06-04 11:27:46.487] [exthost] [info] ExtensionService#_doActivateExtension kisstkondoros.vscode-codemetrics {"startup":true,"activationEvent":"*"}
+[2019-06-04 11:27:46.487] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/kisstkondoros.vscode-codemetrics-1.18.1/out/src/extension
+[2019-06-04 11:27:49.558] [exthost] [info] ExtensionService#_doActivateExtension michelemelluso.gitignore {"startup":true,"activationEvent":"*"}
+[2019-06-04 11:27:49.558] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/michelemelluso.gitignore-1.0.1/out/src/extension
+[2019-06-04 11:27:49.587] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"activationEvent":"*"}
+[2019-06-04 11:27:49.587] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/pkief.material-icon-theme-3.8.0/dist/extension
+[2019-06-04 11:27:49.649] [exthost] [info] ExtensionService#_doActivateExtension shardulm94.trailing-spaces {"startup":true,"activationEvent":"*"}
+[2019-06-04 11:27:49.649] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/shardulm94.trailing-spaces-0.3.1/out/src/extension
+[2019-06-04 11:27:49.876] [exthost] [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker {"startup":true,"activationEvent":"*"}
+[2019-06-04 11:27:49.876] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/streetsidesoftware.code-spell-checker-1.7.16/dist/extension
+[2019-06-04 11:27:50.084] [exthost] [info] eager extensions activated
+[2019-06-04 11:28:06.425] [exthost] [info] extension host started
+[2019-06-04 11:28:06.621] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-06-04 11:28:06.621] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-06-04 11:28:06.629] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-06-04 11:28:06.629] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-06-04 11:28:06.667] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-06-04 11:28:06.667] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-06-04 11:28:06.866] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-06-04 11:28:06.866] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-06-04 11:28:06.874] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":true,"activationEvent":"*"}
+[2019-06-04 11:28:06.874] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/christian-kohler.path-intellisense-1.4.2/out/src/extension
+[2019-06-04 11:28:06.886] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2019-06-04 11:28:06.886] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/dbaeumer.vscode-eslint-1.9.0/client/out/extension
+[2019-06-04 11:28:06.949] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens {"startup":true,"activationEvent":"*"}
+[2019-06-04 11:28:06.949] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/eamodio.gitlens-9.8.1/dist/extension
+[2019-06-04 11:28:07.136] [exthost] [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig {"startup":true,"activationEvent":"*"}
+[2019-06-04 11:28:07.136] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/editorconfig.editorconfig-0.13.0/out/src/editorConfigMain
+[2019-06-04 11:28:07.168] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"activationEvent":"*"}
+[2019-06-04 11:28:07.169] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/formulahendry.auto-close-tag-0.5.6/out/src/extension
+[2019-06-04 11:28:07.170] [exthost] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"activationEvent":"*"}
+[2019-06-04 11:28:07.170] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/hookyqr.beautify-1.5.0/extension
+[2019-06-04 11:28:07.262] [exthost] [info] ExtensionService#_doActivateExtension kisstkondoros.vscode-codemetrics {"startup":true,"activationEvent":"*"}
+[2019-06-04 11:28:07.262] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/kisstkondoros.vscode-codemetrics-1.18.1/out/src/extension
+[2019-06-04 11:28:08.013] [exthost] [info] ExtensionService#_doActivateExtension michelemelluso.gitignore {"startup":true,"activationEvent":"*"}
+[2019-06-04 11:28:08.014] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/michelemelluso.gitignore-1.0.1/out/src/extension
+[2019-06-04 11:28:08.015] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"activationEvent":"*"}
+[2019-06-04 11:28:08.015] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/pkief.material-icon-theme-3.8.0/dist/extension
+[2019-06-04 11:28:08.043] [exthost] [info] ExtensionService#_doActivateExtension shardulm94.trailing-spaces {"startup":true,"activationEvent":"*"}
+[2019-06-04 11:28:08.043] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/shardulm94.trailing-spaces-0.3.1/out/src/extension
+[2019-06-04 11:28:08.069] [exthost] [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker {"startup":true,"activationEvent":"*"}
+[2019-06-04 11:28:08.069] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/streetsidesoftware.code-spell-checker-1.7.16/dist/extension
+[2019-06-04 11:28:08.217] [exthost] [info] eager extensions activated
+[2019-06-04 12:25:51.666] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2019-06-04 12:25:51.666] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/extension-editing/dist/extension
+[2019-06-04 12:25:52.169] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2019-06-04 12:25:52.169] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2019-06-04 12:25:52.359] [exthost] [info] ExtensionService#_doActivateExtension chrmarti.regex {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2019-06-04 12:25:52.359] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/chrmarti.regex-0.2.0/out/src/extension
+[2019-06-04 12:25:52.446] [exthost] [info] ExtensionService#_doActivateExtension eg2.tslint {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2019-06-04 12:25:52.446] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/eg2.tslint-1.0.43/out/extension
+[2019-06-04 12:25:53.196] [exthost] [info] ExtensionService#_doActivateExtension rbbit.typescript-hero {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2019-06-04 12:25:53.196] [exthost] [info] ExtensionService#loadCommonJSModule /home/malav/.vscode/extensions/rbbit.typescript-hero-3.0.0/out/src/extension
+[2019-06-04 12:27:01.916] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-06-04 12:27:01.916] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/configuration-editing/dist/extension
+[2019-06-04 12:27:02.045] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-06-04 12:27:02.045] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2019-06-04 16:06:53.250] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-06-04 16:06:53.251] [exthost] [error] Error: TypeScript Server Error (3.4.5)
+Cannot read property 'length' of undefined
+TypeError: Cannot read property 'length' of undefined
+    at Object.find (tsserver.js:375:35)
+    at getReferencedSymbolsForModuleIfDeclaredBySourceFile (tsserver.js:101868:78)
+    at Object.getReferencedSymbolsForNode (tsserver.js:101846:40)
+    at Object.getReferenceEntriesForNode (tsserver.js:101588:58)
+    at getSemanticDocumentHighlights (tsserver.js:100402:57)
+    at Object.getDocumentHighlights (tsserver.js:100390:20)
+    at Object.getDocumentHighlights (tsserver.js:121035:42)
+    at IOSession.Session.getDocumentHighlights (tsserver.js:129621:71)
+    at Session.handlers.ts.createMapFromTemplate._a.(anonymous function) (tsserver.js:129028:61)
+    at tsserver.js:130466:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:130457:28)
+    at IOSession.Session.executeCommand (tsserver.js:130466:33)
+    at IOSession.Session.onMessage (tsserver.js:130488:35)
+    at Interface.<anonymous> (tsserver.js:131789:27)
+    at Interface.emit (events.js:182:13)
+    at Interface._onLine (readline.js:290:10)
+    at Interface._normalWrite (readline.js:433:12)
+    at Socket.ondata (readline.js:149:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:279:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at Pipe.onread (net.js:636:20)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:176329)
+	at v.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:181697)
+	at v.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180449)
+	at constructor._reader.onData.e (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:179805)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:720)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:185678)
+	at Socket.t.Reader.constructor.e.on.e (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:185326)
+	at Socket.emit (events.js:182:13)
+	at addChunk (_stream_readable.js:279:12)
+	at readableAddChunk (_stream_readable.js:264:11)
+	at Socket.Readable.push (_stream_readable.js:219:10)
+	at Pipe.onread (net.js:636:20)
+[2019-06-04 16:06:56.157] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-06-04 16:06:56.157] [exthost] [error] Error: TypeScript Server Error (3.4.5)
+Cannot read property 'length' of undefined
+TypeError: Cannot read property 'length' of undefined
+    at Object.find (tsserver.js:375:35)
+    at getReferencedSymbolsForModuleIfDeclaredBySourceFile (tsserver.js:101868:78)
+    at Object.getReferencedSymbolsForNode (tsserver.js:101846:40)
+    at Object.getReferenceEntriesForNode (tsserver.js:101588:58)
+    at getSemanticDocumentHighlights (tsserver.js:100402:57)
+    at Object.getDocumentHighlights (tsserver.js:100390:20)
+    at Object.getDocumentHighlights (tsserver.js:121035:42)
+    at IOSession.Session.getDocumentHighlights (tsserver.js:129621:71)
+    at Session.handlers.ts.createMapFromTemplate._a.(anonymous function) (tsserver.js:129028:61)
+    at tsserver.js:130466:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:130457:28)
+    at IOSession.Session.executeCommand (tsserver.js:130466:33)
+    at IOSession.Session.onMessage (tsserver.js:130488:35)
+    at Interface.<anonymous> (tsserver.js:131789:27)
+    at Interface.emit (events.js:182:13)
+    at Interface._onLine (readline.js:290:10)
+    at Interface._normalWrite (readline.js:433:12)
+    at Socket.ondata (readline.js:149:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:279:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at Pipe.onread (net.js:636:20)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:176329)
+	at v.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:181697)
+	at v.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180449)
+	at constructor._reader.onData.e (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:179805)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:720)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:185678)
+	at Socket.t.Reader.constructor.e.on.e (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:185326)
+	at Socket.emit (events.js:182:13)
+	at addChunk (_stream_readable.js:279:12)
+	at readableAddChunk (_stream_readable.js:264:11)
+	at Socket.Readable.push (_stream_readable.js:219:10)
+	at Pipe.onread (net.js:636:20)
+[2019-06-04 16:07:37.379] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-06-04 16:07:37.379] [exthost] [error] Error: TypeScript Server Error (3.4.5)
+Cannot read property 'length' of undefined
+TypeError: Cannot read property 'length' of undefined
+    at Object.find (tsserver.js:375:35)
+    at getReferencedSymbolsForModuleIfDeclaredBySourceFile (tsserver.js:101868:78)
+    at Object.getReferencedSymbolsForNode (tsserver.js:101846:40)
+    at Object.getReferenceEntriesForNode (tsserver.js:101588:58)
+    at getSemanticDocumentHighlights (tsserver.js:100402:57)
+    at Object.getDocumentHighlights (tsserver.js:100390:20)
+    at Object.getDocumentHighlights (tsserver.js:121035:42)
+    at IOSession.Session.getDocumentHighlights (tsserver.js:129621:71)
+    at Session.handlers.ts.createMapFromTemplate._a.(anonymous function) (tsserver.js:129028:61)
+    at tsserver.js:130466:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:130457:28)
+    at IOSession.Session.executeCommand (tsserver.js:130466:33)
+    at IOSession.Session.onMessage (tsserver.js:130488:35)
+    at Interface.<anonymous> (tsserver.js:131789:27)
+    at Interface.emit (events.js:182:13)
+    at Interface._onLine (readline.js:290:10)
+    at Interface._normalWrite (readline.js:433:12)
+    at Socket.ondata (readline.js:149:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:279:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at Pipe.onread (net.js:636:20)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:176329)
+	at v.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:181697)
+	at v.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180449)
+	at constructor._reader.onData.e (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:179805)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:720)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:185678)
+	at Socket.t.Reader.constructor.e.on.e (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:185326)
+	at Socket.emit (events.js:182:13)
+	at addChunk (_stream_readable.js:279:12)
+	at readableAddChunk (_stream_readable.js:264:11)
+	at Socket.Readable.push (_stream_readable.js:219:10)
+	at Pipe.onread (net.js:636:20)
+[2019-06-04 16:15:01.804] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-06-04 16:15:01.804] [exthost] [error] Error: TypeScript Server Error (3.4.5)
+Debug Failure. False expression.
+Error: Debug Failure. False expression.
+    at Object.getImportCompletionAction (tsserver.js:113992:22)
+    at getCompletionEntryCodeActionsAndSourceDisplay (tsserver.js:98905:33)
+    at Object.getCompletionEntryDetails (tsserver.js:98869:30)
+    at Object.getCompletionEntryDetails (tsserver.js:120945:35)
+    at tsserver.js:129998:57
+    at Object.mapDefined (tsserver.js:668:30)
+    at IOSession.Session.getCompletionEntryDetails (tsserver.js:129996:33)
+    at Session.handlers.ts.createMapFromTemplate._a.(anonymous function) (tsserver.js:128933:61)
+    at tsserver.js:130466:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:130457:28)
+    at IOSession.Session.executeCommand (tsserver.js:130466:33)
+    at IOSession.Session.onMessage (tsserver.js:130488:35)
+    at Interface.<anonymous> (tsserver.js:131789:27)
+    at Interface.emit (events.js:182:13)
+    at Interface._onLine (readline.js:290:10)
+    at Interface._normalWrite (readline.js:433:12)
+    at Socket.ondata (readline.js:149:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:279:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at Pipe.onread (net.js:636:20)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:176329)
+	at v.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:181697)
+	at v.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180449)
+	at constructor._reader.onData.e (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:179805)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:720)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:185678)
+	at Socket.t.Reader.constructor.e.on.e (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:185326)
+	at Socket.emit (events.js:182:13)
+	at addChunk (_stream_readable.js:279:12)
+	at readableAddChunk (_stream_readable.js:264:11)
+	at Socket.Readable.push (_stream_readable.js:219:10)
+	at Pipe.onread (net.js:636:20)
+[2019-06-04 16:15:25.392] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-06-04 16:15:25.392] [exthost] [error] Error: TypeScript Server Error (3.4.5)
+Debug Failure. False expression.
+Error: Debug Failure. False expression.
+    at Object.getImportCompletionAction (tsserver.js:113992:22)
+    at getCompletionEntryCodeActionsAndSourceDisplay (tsserver.js:98905:33)
+    at Object.getCompletionEntryDetails (tsserver.js:98869:30)
+    at Object.getCompletionEntryDetails (tsserver.js:120945:35)
+    at tsserver.js:129998:57
+    at Object.mapDefined (tsserver.js:668:30)
+    at IOSession.Session.getCompletionEntryDetails (tsserver.js:129996:33)
+    at Session.handlers.ts.createMapFromTemplate._a.(anonymous function) (tsserver.js:128933:61)
+    at tsserver.js:130466:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:130457:28)
+    at IOSession.Session.executeCommand (tsserver.js:130466:33)
+    at IOSession.Session.onMessage (tsserver.js:130488:35)
+    at Interface.<anonymous> (tsserver.js:131789:27)
+    at Interface.emit (events.js:182:13)
+    at Interface._onLine (readline.js:290:10)
+    at Interface._normalWrite (readline.js:433:12)
+    at Socket.ondata (readline.js:149:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:279:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at Pipe.onread (net.js:636:20)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:176329)
+	at v.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:181697)
+	at v.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180449)
+	at constructor._reader.onData.e (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:179805)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:720)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:185678)
+	at Socket.t.Reader.constructor.e.on.e (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:185326)
+	at Socket.emit (events.js:182:13)
+	at addChunk (_stream_readable.js:279:12)
+	at readableAddChunk (_stream_readable.js:264:11)
+	at Socket.Readable.push (_stream_readable.js:219:10)
+	at Pipe.onread (net.js:636:20)

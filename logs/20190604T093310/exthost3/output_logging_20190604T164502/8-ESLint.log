@@ -1,0 +1,27 @@
+[Info  - 4:45:02 PM] ESLint server stopped.
+[Info  - 4:45:04 PM] ESLint server running in node v10.2.0
+[Info  - 4:45:04 PM] ESLint server is running.
+[Info  - 4:45:10 PM] 
+Failed to load the ESLint library for the document /home/malav/Desktop/gateway/nest_project_final/final-project/quickfix_examples/acceptor.js
+
+To use ESLint please install eslint by running npm install eslint in the workspace folder final-project
+or globally using 'npm install -g eslint'. You need to reopen the workspace after installing eslint.
+
+If you are using yarn or pnpm instead of npm set the setting `eslint.packageManager` to either `yarn` or `pnpm`
+Alternatively you can disable ESLint for the workspace folder final-project by executing the 'Disable ESLint' command.
+[Info  - 4:48:18 PM] 
+Failed to load the ESLint library for the document /home/malav/Desktop/gateway/nest_project_final/final-project/quickfix_examples/acceptor.js
+
+To use ESLint please install eslint by running npm install eslint in the workspace folder final-project
+or globally using 'npm install -g eslint'. You need to reopen the workspace after installing eslint.
+
+If you are using yarn or pnpm instead of npm set the setting `eslint.packageManager` to either `yarn` or `pnpm`
+Alternatively you can disable ESLint for the workspace folder final-project by executing the 'Disable ESLint' command.
+[Info  - 4:48:20 PM] 
+Failed to load the ESLint library for the document /home/malav/Desktop/gateway/nest_project_final/final-project/quickfix_examples/acceptor.js
+
+To use ESLint please install eslint by running npm install eslint in the workspace folder final-project
+or globally using 'npm install -g eslint'. You need to reopen the workspace after installing eslint.
+
+If you are using yarn or pnpm instead of npm set the setting `eslint.packageManager` to either `yarn` or `pnpm`
+Alternatively you can disable ESLint for the workspace folder final-project by executing the 'Disable ESLint' command.

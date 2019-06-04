@@ -17,3 +17,39 @@
     at Generator.next (<anonymous>)
     at r (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:454)
     at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-06-04 12:21:51.274] [renderer1] [error] Cannot read property 'length' of null: TypeError: Cannot read property 'length' of null
+    at X (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5216:549)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5217:15
+    at Generator.next (<anonymous>)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:621
+    at new Promise (<anonymous>)
+    at n (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:398)
+    at Q (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5216:671)
+    at handler (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5227:152)
+    at c.invokeFunction (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:1385:837)
+    at Proxy._tryExecuteCommand (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3015:52)
+    at r.then.i (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3014:717)
+[2019-06-04 12:21:55.443] [renderer1] [error] Cannot read property 'length' of null: TypeError: Cannot read property 'length' of null
+    at X (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5216:549)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5217:15
+    at Generator.next (<anonymous>)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:621
+    at new Promise (<anonymous>)
+    at n (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:398)
+    at Q (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5216:671)
+    at handler (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5227:152)
+    at c.invokeFunction (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:1385:837)
+    at Proxy._tryExecuteCommand (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3015:52)
+    at r.then.i (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3014:717)
+[2019-06-04 12:22:05.599] [renderer1] [error] Cannot read property 'length' of null: TypeError: Cannot read property 'length' of null
+    at X (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5216:549)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5217:15
+    at Generator.next (<anonymous>)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:621
+    at new Promise (<anonymous>)
+    at n (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:398)
+    at Q (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5216:671)
+    at handler (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:5227:152)
+    at c.invokeFunction (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:1385:837)
+    at Proxy._tryExecuteCommand (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3015:52)
+    at r.then.i (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3014:717)

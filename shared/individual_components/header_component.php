@@ -55,8 +55,12 @@
                             <li><a href="index.php" class="active">Home</a></li>
                             <li><a href="cart.php">Cart</a></li> 
                             <li><a href="products.php">Our Products</a></li> 
-                            <li><a href="contactus.php">Contact</a></li>
-                        </ul>
+                            <li><a href="contactus.php">Contact Us</a></li>';
+                            if(!isset($_SESSION["id"]))
+                            echo '<li><a href="login.php">Login</a></li>';
+                            else
+                            echo '<li><a href="signout.php">Logout</a></li>';
+                        echo '</ul>
                     </div>
                 </div>
                 
