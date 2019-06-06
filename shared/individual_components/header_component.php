@@ -59,7 +59,11 @@
                             if(!isset($_SESSION["id"]))
                             echo '<li><a href="login.php">Login</a></li>';
                             else
-                            echo '<li><a href="signout.php">Logout</a></li>';
+                            {
+                                echo '<li><a href="pastorders.php">Past Orders</a></li>';
+                                echo '<li><a href="myprofile.php">My Profile</a></li>';
+                                echo '<li><a href="signout.php">Logout</a></li>';
+                            }
                         echo '</ul>
                     </div>
                 </div>

@@ -21,10 +21,50 @@ class user
         user::disconnect();
 
     }
+    public function selectOne($uid)
+    {
+        $cnn=user::connect();
+        $q="select user_email,user_name,user_company_name,user_contact from user_tbl where user_id=".$uid;
+        $result=$cnn->query($q);
+        return $result;
+        user::disconnect();
+    }   
+    public function updateOne($uid,$uname,$cname,$ucontact)
+    {
+        $cnn=user::connect();
+        $q="update user_tbl set user_name='".$uname."',user_company_name='".$cname."',user_contact='".$ucontact."' where user_id=".$uid;
+        $result=$cnn->query($q);
+        return $result;
+        user::disconnect();
+    }   
+    public function check($id,$upass)
+    {
+        $cnn=user::connect();
+        $q="select * from user_tbl where user_id='". $id ."' and user_password='". $upass ."' and IsVerified=1";
+        $result=$cnn->query($q);
+        return $result;
+        user::disconnect();
+    }
+    public function updatePass($uid,$oldpass,$newpass)
+    {
+        $cnn=user::connect();
+        $result=$this->check($uid,$oldpass);
+        if($result->num_rows==1){
+            $q="update user_tbl set user_password='".$newpass."' where user_id=".$uid;    
+            $result=$cnn->query($q);
+            return $result;
+        }
+        else{
+            return false;
+        }
+        user::disconnect();
+    }   
+
     public function login($id,$upass)
     {
         $cnn=user::connect();
         $q="select * from user_tbl where user_email='". $id ."' and user_password='". $upass ."' and IsVerified=1";
+        echo $q;
         $result=$cnn->query($q);
         return $result;
         user::disconnect();

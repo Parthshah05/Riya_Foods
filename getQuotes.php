@@ -31,12 +31,12 @@ session_start();
 
 <body>
     <?php
-    require '/shared/individual_components/header_component.php';
+    require './shared/individual_components/header_component.php';
     ?>
     <?php
-        require '/shared/classcart.php';
+        require './shared/classcart.php';
         $conn = new cart;
-        $_SESSION["id"] = 1;
+        $_SESSION["id"] = 5;
         $result = $conn->getQuote($_SESSION["id"]);
         if ($result) {
             $result = $conn->deleteUid($_SESSION["id"]);

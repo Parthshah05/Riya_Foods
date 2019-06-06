@@ -29,6 +29,14 @@ class cart
       return $result;
       cart::disconnect();
     }
+    public function deleteKart($kid)
+    {
+      $cnn = cart::connect();
+      $q="delete from kart_product where kart_id=".$kid;
+      $result = $cnn->query($q);
+      return $result;
+      cart::disconnect();
+    }
     public function addToCart($uid, $pid, $qty)
     {
         $cnn = cart::connect();
@@ -485,7 +493,19 @@ class cart
         require_once './shared/classmail.php';
         $mail = new Mail;
         if ($mail->sendMail("mdshah9574@gmail.com", "Malav Shah", "medskyy@gmail.com", "Riya Foods Limited", "Get Quotation Request", $message)) {
-            return true;
+          $q = "select * from kart_tbl as kt join kart_product as kp on kp.kart_id=kt.kart_id join product_tbl as pt on kp.product_id=pt.product_id join product_cat as pc on pt.fk_cat_id=pc.cat_id";
+          $result = $cnn->query($q);
+          while($row = $result->fetch_assoc()){
+            $qs="insert into past_order_tbl values('',".$uid.",".$row["product_id"].",".$row["product_qty"].",'')";  
+            $res=$cnn->query($qs);
+            if(!$res){
+              return false;
+            }
+          }
+          if($this->deleteUid($uid))
+          return true;
+          else
+          return false;
         } else {
             return false;
         }

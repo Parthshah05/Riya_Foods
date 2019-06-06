@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jun 04, 2019 at 02:34 PM
+-- Generation Time: Jun 06, 2019 at 02:38 PM
 -- Server version: 10.1.40-MariaDB
 -- PHP Version: 7.1.29
 
@@ -81,7 +81,7 @@ CREATE TABLE `kart_tbl` (
 --
 
 INSERT INTO `kart_tbl` (`kart_id`, `user_id`) VALUES
-(0, 0);
+(0, 5);
 
 -- --------------------------------------------------------
 
@@ -90,6 +90,7 @@ INSERT INTO `kart_tbl` (`kart_id`, `user_id`) VALUES
 --
 
 CREATE TABLE `past_order_tbl` (
+  `order_id` int(11) NOT NULL,
   `user_id` int(11) NOT NULL,
   `product_id` int(11) NOT NULL,
   `product_qty` int(11) NOT NULL,
@@ -276,7 +277,7 @@ CREATE TABLE `user_tbl` (
 --
 
 INSERT INTO `user_tbl` (`user_id`, `user_email`, `user_name`, `user_company_name`, `user_contact`, `user_password`, `user_otp`, `otp_timestamp`, `IsVerified`) VALUES
-(5, 'mdshah9574@gmail.com', 'Malav', 'Fintech', 'jasldfjsdfl', 'MTIzNDU2', '394b538e44c', '2019-06-04 06:48:31', 1);
+(5, 'mdshah9574@gmail.com', 'Malav Shah', 'Fintech Global', '12235545', 'bWFsYXY=', '394b538e44c', '2019-06-04 06:48:31', 1);
 
 --
 -- Indexes for dumped tables
@@ -293,6 +294,12 @@ ALTER TABLE `contact_us`
 --
 ALTER TABLE `kart_tbl`
   ADD PRIMARY KEY (`kart_id`);
+
+--
+-- Indexes for table `past_order_tbl`
+--
+ALTER TABLE `past_order_tbl`
+  ADD PRIMARY KEY (`order_id`);
 
 --
 -- Indexes for table `product_cat`
@@ -322,6 +329,12 @@ ALTER TABLE `user_tbl`
 --
 ALTER TABLE `contact_us`
   MODIFY `user_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+
+--
+-- AUTO_INCREMENT for table `past_order_tbl`
+--
+ALTER TABLE `past_order_tbl`
+  MODIFY `order_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT for table `product_cat`

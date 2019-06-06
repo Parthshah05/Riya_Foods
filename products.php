@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Home | Riya Foods</title>
+    <title>Products | Riya Foods</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">
@@ -29,6 +29,7 @@
 
 <body>
     <?php
+    session_start();
         require './shared/individual_components/header_component.php';
     ?>
 
