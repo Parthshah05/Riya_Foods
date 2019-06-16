@@ -21,6 +21,20 @@ class user
         user::disconnect();
 
     }
+    public function checkUserExist($email)
+    {
+        $cnn=user::connect();
+        $q="select user_email from user_tbl where user_email='".$email."'";
+        $result=$cnn->query($q);
+        if($result->num_rows==1){
+            return true;
+        }
+        else{
+            return false;
+        }
+        // return $result;
+        user::disconnect();
+    }
     public function selectOne($uid)
     {
         $cnn=user::connect();
@@ -64,7 +78,7 @@ class user
     {
         $cnn=user::connect();
         $q="select * from user_tbl where user_email='". $id ."' and user_password='". $upass ."' and IsVerified=1";
-        echo $q;
+        // echo $q;
         $result=$cnn->query($q);
         return $result;
         user::disconnect();

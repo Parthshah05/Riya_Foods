@@ -39,7 +39,7 @@ if (!isset($_SESSION["id"])) {
             xmlhttp.onreadystatechange = function() {
                 if (this.readyState == 4 && this.status == 200) {
                     if (this.responseText) {
-                        alert("Quantity increased to cart successfully.");
+                        alert("Quantity changed to cart successfully.");
                     }
                     else{
                         alert(this.responseText);

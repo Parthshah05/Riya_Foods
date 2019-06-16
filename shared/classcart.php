@@ -43,14 +43,14 @@ class cart
         $q = "select * from kart_tbl where user_id=" . $uid;
         $result = $cnn->query($q);
         if ($result->num_rows == 0) {
-            $q1 = "insert into kart_tbl values(0," . $uid . ")";
+            $q1 = "insert into kart_tbl values(null," . $uid . ")";
             $result = $cnn->query($q1);
             if ($result === true) { } else {
                 return false;
             }
         }
         $q = "select * from kart_tbl as kt join kart_product as kp on kt.kart_id=kp.kart_id where kt.user_id=" . $uid . " and kp.product_id=" . $pid;
-        echo $q;
+        // echo $q;
         $result = $cnn->query($q);
         if ($result->num_rows == 0) {
             $q = "select * from kart_tbl as kt where kt.user_id=" . $uid;
@@ -94,10 +94,12 @@ class cart
         $q="select kart_id from kart_tbl where user_id=".$uid;
         $result=$cnn->query($q);
         if($result->num_rows>0)
-        $row=$result->fetch_assoc();
-        $kid=$row["kart_id"];
-        $q = "delete from kart_product where kart_id=".$kid;
-        $result = $cnn->query($q);
+        {
+          $row=$result->fetch_assoc();
+          $kid=$row["kart_id"];
+          $q = "delete from kart_product where kart_id=".$kid;
+          $result = $cnn->query($q);
+        }
         return $result;
         cart::disconnect();
     }

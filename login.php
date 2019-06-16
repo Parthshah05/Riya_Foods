@@ -64,6 +64,8 @@ if(isset($_POST["loginbtn"])){
         $row=$result->fetch_assoc();
         $_SESSION["id"]=$row["user_id"]; 
         header('location:index.php');
+        // exit(header("location:index.php"));
+
     }     
     else
     {
@@ -113,45 +115,53 @@ if(isset($_POST["btnsubmit"]))
     $_pass=$_POST["txtpassword"];  
     $hash=base64_encode($_pass);
     include_once './shared/classmail.php';
-    $mail=new Mail;
-    $token=md5(uniqid(rand(), true));
-    $token=substr($token,0,11);
-    $message='<h1>Verify Your Account</h1>
-    Hi '.$_name.',
- <p>
-We have received your signup request.In order to signup please click on below link to verify your account.
-</p>
- <p>
- <a href="verifyaccount.php?token='.$token.'">Please click on this link to verify your account.</a>
- </p>
-<p>
-This is confidential mail.Please do not share this mail with anyother. Do Not revert back to this mail id.
-</p>
-<p>If you have trouble to sign in:
-Please contact us on rkishor59@yahoo.co.uk
- </p>
- 
-<p>Thanks for helping us creating your account.
-Riya Foods Limited</p>';
-    if($mail->sendMail($_eid,$_name,"medskyy@gmail.com", "Riya Foods Limited", "Verify Your Account", $message)){
-        require './shared/classsignup.php';
-        $conn=new user;
-        $result=$conn->insert($_eid,$_name,$_cname,$_contact,$hash,$token,$_tp);
-        if($result===true)
-        {
-            $message="Please verify your account than log in.";
-        }     
-        else
-        {
-            $message="Please enter valid details.";
-        }
-        echo "<script type='text/javascript'>alert('$message');</script>";
-
+    include_once './shared/classsignup.php';
+    $us=new user;
+    if($us->checkUserExist($_eid)){
+        echo "<script type='text/javascript'>alert('User with this email already exist.');</script>";
     }
     else{
-        $message="Please enter valid email id.";
-        echo "<script type='text/javascript'>alert('$message');</script>";
+        $mail=new Mail;
+        $token=md5(uniqid(rand(), true));
+        $token=substr($token,0,11);
+        $message='<h1>Verify Your Account</h1>
+        Hi '.$_name.',
+     <p>
+    We have received your signup request.In order to signup please click on below link to verify your account.
+    </p>
+     <p>
+     <a href="localhost/Riya_Foods/verifyaccount.php?token='.$token.'">Please click on this link to verify your account.</a>
+     </p>
+    <p>
+    This is confidential mail.Please do not share this mail with anyother. Do Not revert back to this mail id.
+    </p>
+    <p>If you have trouble to sign in:
+    Please contact us on rkishor59@yahoo.co.uk
+     </p>
+     
+    <p>Thanks for helping us creating your account.
+    Riya Foods Limited</p>';
+        if($mail->sendMail($_eid,$_name,"medskyy@gmail.com", "Riya Foods Limited", "Verify Your Account", $message)){
+            
+            $conn=new user;
+            $result=$conn->insert($_eid,$_name,$_cname,$_contact,$hash,$token,$_tp);
+            if($result===true)
+            {
+                $message="Please verify your account than log in.";
+            }     
+            else
+            {
+                $message="Please enter valid details.";
+            }
+            echo "<script type='text/javascript'>alert('$message');</script>";
+    
+        }
+        else{
+            $message="Please enter valid email id.";
+            echo "<script type='text/javascript'>alert('$message');</script>";
+        }
     }
+
 }
 
 ?>

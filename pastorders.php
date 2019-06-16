@@ -1,5 +1,9 @@
 <?php
     session_start();
+    if(!isset($_SESSION["id"]))
+    {
+        header("Location:index.php");
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -34,6 +38,18 @@
     <?php
         require './shared/individual_components/header_component.php';
     ?>
+    <script>
+function addToKart(pid,quantity) {
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                alert(this.responseText);
+            }
+        };
+        xmlhttp.open("GET", "addToKart.php?productId=" + pid + "&quantity=" + quantity, true);
+        xmlhttp.send();
+    }
+    </script>
     <section id="cart_items">
         <div class="container">
             <div class="breadcrumbs">
@@ -50,6 +66,7 @@
                             <td class="description">Product Name</td>
                             <td class="price">Quantity</td>
                             <td class="quantity">Date</td>
+                            <td class="quantity">Action</td>
                         </tr>
                     </thead>
                     <tbody id="myTable">
@@ -66,6 +83,9 @@
                                           <td class="cart_description"><h4>'.$row["product_name"].'</h4></td>
                                           <td class="cart_description"><h4>'.$row["product_qty"].'</h4></td>
                                           <td class="cart_description"><h4>'.$row["order_date"].'</h4></td>
+                                          <td class="cart_description">
+                                          <button href="#" onclick="addToKart('.$row["product_id"].','.$row["product_qty"].')" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+                                          </td>
                                           </tr>';
 									}
 								}

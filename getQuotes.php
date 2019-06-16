@@ -36,7 +36,6 @@ session_start();
     <?php
         require './shared/classcart.php';
         $conn = new cart;
-        $_SESSION["id"] = 5;
         $result = $conn->getQuote($_SESSION["id"]);
         if ($result) {
             $result = $conn->deleteUid($_SESSION["id"]);
