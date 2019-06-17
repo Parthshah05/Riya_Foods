@@ -1,0 +1,17 @@
+[2019-06-17 01:06:27.738] [exthost] [info] extension host started
+[2019-06-17 01:06:27.755] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-06-17 01:06:27.755] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-06-17 01:06:27.759] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-06-17 01:06:27.759] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-06-17 01:06:27.780] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-06-17 01:06:27.780] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-06-17 01:06:27.892] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-06-17 01:06:27.892] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-06-17 01:06:28.123] [exthost] [info] ExtensionService#_doActivateExtension felixfbecker.php-intellisense {"startup":true,"activationEvent":"workspaceContains:**/*.php"}
+[2019-06-17 01:06:28.123] [exthost] [info] ExtensionService#loadCommonJSModule /home/md/.vscode/extensions/felixfbecker.php-intellisense-2.3.10/out/extension
+[2019-06-17 01:07:03.059] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"activationEvent":"onLanguage:php"}
+[2019-06-17 01:07:03.059] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/php-language-features/dist/phpMain
+[2019-06-17 01:07:31.425] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":false,"activationEvent":"*"}
+[2019-06-17 01:07:31.425] [exthost] [info] ExtensionService#loadCommonJSModule /home/md/.vscode/extensions/christian-kohler.path-intellisense-1.4.2/out/src/extension
+[2019-06-17 01:07:36.408] [exthost] [info] ExtensionService#_doActivateExtension ionutvmi.path-autocomplete {"startup":false,"activationEvent":"*"}
+[2019-06-17 01:07:36.408] [exthost] [info] ExtensionService#loadCommonJSModule /home/md/.vscode/extensions/ionutvmi.path-autocomplete-1.13.3/out/src/extension

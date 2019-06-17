@@ -824,7 +824,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1385,5 +1386,19 @@
     },
     "theme": "vs-dark",
     "themeBackground": "#1e1e1e",
-    "pickerWorkingDir": "/opt/lampp/htdocs"
+    "pickerWorkingDir": "/opt/lampp/htdocs",
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///opt/lampp/htdocs/Riya_Foods",
+            "backupPath": "/opt/lampp/htdocs/Riya_Foods/Backups/e290db23fce9b159a92aa58cd7848593",
+            "uiState": {
+                "mode": 0,
+                "x": 77,
+                "y": 64,
+                "width": 1843,
+                "height": 1016
+            }
+        },
+        "openedWindows": []
+    }
 }

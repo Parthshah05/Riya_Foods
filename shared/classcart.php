@@ -37,6 +37,14 @@ class cart
       return $result;
       cart::disconnect();
     }
+    public function selectByOid($oid){
+      $cnn = cart::connect();
+      $q="select * from product_tbl as pt join product_cat as pc on pt.fk_cat_id=pc.cat_id join past_order_tbl as po on po.product_id=pt.product_id join user_tbl as ut on ut.user_id=po.user_id where po.order_date='".$oid."'";
+      // echo $q;
+      $result = $cnn->query($q);
+      return $result;
+      cart::disconnect();
+    }
     public function addToCart($uid, $pid, $qty)
     {
         $cnn = cart::connect();
@@ -103,9 +111,10 @@ class cart
         return $result;
         cart::disconnect();
     }
+    
     public function getQuote($uid)
     {
-        date_default_timezone_set('Europe/London');
+        // date_default_timezone_set('Europe/London');
         $cnn = cart::connect();
         $q = "select * from user_tbl where user_id=" . $uid;
         $result = $cnn->query($q);
@@ -114,8 +123,11 @@ class cart
         $user_name = $row["user_name"];
         $user_company = $row["user_company_name"];
         $user_contact = $row["user_contact"];
+        date_default_timezone_set("Asia/Calcutta");
         $timestamp = time();
-        $date = date("F jS, Y", strtotime($timestamp));
+        // $date = date("F jS, Y", strtotime($timestamp));
+        $time=date('Y:m:d H:i:s');
+        echo 'time = '.$time;
         $message = '<!doctype html>
 <html>
   <head>
@@ -442,7 +454,7 @@ class cart
                                     <td>' . $user_name . '</td>
                                     <td>' . $user_company . '</td>
                                     <td>' . $user_contact . '</td>
-                                    <td>' . $date . '</td>
+                                    <td>' . $time . '</td>
                                 </tr>
                                 </table>
                               </tr>
@@ -463,7 +475,7 @@ class cart
                         </table>
                         <table role="presentation"  border="2" cellpadding="0" cellspacing="0">
                                     <tr>
-                                      <td> <a href="#" target="_blank">Fill Rates</a> </td>
+                                      <td> <a href="localhost/Riya_Foods/riyaadmin/fillrates1.php?oid='.$time.'&uid='.$user_email.'" target="_blank">Fill Rates</a> </td>
                                     </tr>
               </table>
                         <p>This email is generated from your website riyafoods.com.</p>
@@ -492,13 +504,15 @@ class cart
     </table>
   </body>
 </html>';
+        // echo $message;
         require_once './shared/classmail.php';
         $mail = new Mail;
         if ($mail->sendMail("mdshah9574@gmail.com", "Malav Shah", "medskyy@gmail.com", "Riya Foods Limited", "Get Quotation Request", $message)) {
           $q = "select * from kart_tbl as kt join kart_product as kp on kp.kart_id=kt.kart_id join product_tbl as pt on kp.product_id=pt.product_id join product_cat as pc on pt.fk_cat_id=pc.cat_id";
           $result = $cnn->query($q);
           while($row = $result->fetch_assoc()){
-            $qs="insert into past_order_tbl values('',".$uid.",".$row["product_id"].",".$row["product_qty"].",'')";  
+            $qs="insert into past_order_tbl values(null,".$uid.",".$row["product_id"].",".$row["product_qty"].",'".$time."')";  
+            echo $qs;
             $res=$cnn->query($qs);
             if(!$res){
               return false;
@@ -513,5 +527,6 @@ class cart
         }
         // return true;
     }
+
 }
 ?>

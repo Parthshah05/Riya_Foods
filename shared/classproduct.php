@@ -35,5 +35,6 @@ class product
         return $result;
         product::disconnect();
     }
+    
 }
 ?>

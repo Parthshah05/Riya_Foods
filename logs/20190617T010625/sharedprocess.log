@@ -1,0 +1,42 @@
+[2019-06-17 01:06:29.513] [sharedprocess] [info] main {"machineId":"4d369e8d3298d444adfbdfa23023f8b132d72859a82acf83e6b2c7bb688f84be"}
+[2019-06-17 01:06:29.573] [sharedprocess] [info] Scanned user extensions: 7
+[2019-06-17 01:06:29.626] [sharedprocess] [info] Scanned user extensions: 7
+[2019-06-17 01:06:29.627] [sharedprocess] [info] Scanned user extensions: 7
+[2019-06-17 01:06:29.671] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-17 01:06:29.675] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-17 01:06:29.678] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-17 01:07:01.854] [sharedprocess] [info] Scanned user extensions: 7
+[2019-06-17 01:07:09.519] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-06-17 01:07:24.429] [sharedprocess] [info] Scanned user extensions: 7
+[2019-06-17 01:07:24.439] [sharedprocess] [info] Scanned user extensions: 7
+[2019-06-17 01:07:24.440] [sharedprocess] [info] Scanned user extensions: 7
+[2019-06-17 01:07:24.442] [sharedprocess] [info] Scanned user extensions: 7
+[2019-06-17 01:07:24.508] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-17 01:07:24.510] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-17 01:07:24.513] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-17 01:07:29.550] [sharedprocess] [info] Installing extension: christian-kohler.path-intellisense
+[2019-06-17 01:07:29.557] [sharedprocess] [info] Scanned user extensions: 7
+[2019-06-17 01:07:30.808] [sharedprocess] [info] Downloaded extension: christian-kohler.path-intellisense /tmp/b7d097ef-ccc4-4c8a-bf46-6617d492b790
+[2019-06-17 01:07:30.891] [sharedprocess] [info] Extracted extension to /home/md/.vscode/extensions/.christian-kohler.path-intellisense-1.4.2: christian-kohler.path-intellisense
+[2019-06-17 01:07:30.892] [sharedprocess] [info] Renamed to /home/md/.vscode/extensions/christian-kohler.path-intellisense-1.4.2
+[2019-06-17 01:07:30.892] [sharedprocess] [info] Installation completed. christian-kohler.path-intellisense
+[2019-06-17 01:07:31.327] [sharedprocess] [info] Extensions installed successfully: christian-kohler.path-intellisense
+[2019-06-17 01:07:33.203] [sharedprocess] [info] Installing extension: ionutvmi.path-autocomplete
+[2019-06-17 01:07:33.213] [sharedprocess] [info] Scanned user extensions: 8
+[2019-06-17 01:07:34.814] [sharedprocess] [info] Installing extension: jakob101.relativepath
+[2019-06-17 01:07:34.828] [sharedprocess] [info] Scanned user extensions: 8
+[2019-06-17 01:07:35.617] [sharedprocess] [info] Downloaded extension: ionutvmi.path-autocomplete /tmp/ae2e5856-324f-4836-8245-786baa7adb72
+[2019-06-17 01:07:35.714] [sharedprocess] [info] Extracted extension to /home/md/.vscode/extensions/.ionutvmi.path-autocomplete-1.13.3: ionutvmi.path-autocomplete
+[2019-06-17 01:07:35.715] [sharedprocess] [info] Renamed to /home/md/.vscode/extensions/ionutvmi.path-autocomplete-1.13.3
+[2019-06-17 01:07:35.721] [sharedprocess] [info] Installation completed. ionutvmi.path-autocomplete
+[2019-06-17 01:07:36.091] [sharedprocess] [info] Downloaded extension: jakob101.relativepath /tmp/c685c353-9876-4e8e-83b4-b871b66a172a
+[2019-06-17 01:07:36.257] [sharedprocess] [info] Extracted extension to /home/md/.vscode/extensions/.jakob101.relativepath-1.4.0: jakob101.relativepath
+[2019-06-17 01:07:36.257] [sharedprocess] [info] Renamed to /home/md/.vscode/extensions/jakob101.relativepath-1.4.0
+[2019-06-17 01:07:36.258] [sharedprocess] [info] Installation completed. jakob101.relativepath
+[2019-06-17 01:07:36.288] [sharedprocess] [info] Extensions installed successfully: ionutvmi.path-autocomplete
+[2019-06-17 01:07:36.321] [sharedprocess] [info] Extensions installed successfully: jakob101.relativepath
+[2019-06-17 01:12:02.567] [sharedprocess] [info] Scanned user extensions: 10
+[2019-06-17 01:17:02.582] [sharedprocess] [info] Scanned user extensions: 10
+[2019-06-17 01:22:02.605] [sharedprocess] [info] Scanned user extensions: 10
+[2019-06-17 01:27:02.626] [sharedprocess] [info] Scanned user extensions: 10
+[2019-06-17 01:32:02.645] [sharedprocess] [info] Scanned user extensions: 10
